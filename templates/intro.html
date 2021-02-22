@@ -47,10 +47,10 @@ div {
 <div>
   <form method="POST">
     <label>GRE Score(Out of 350)</label>
-    <input type="number" name="gre_score" placeholder="Enter GRE Score">
+    <input type="number" name="gre_score" placeholder="Enter GRE Score" max="350">
 
     <label>TOEFL Score(Out of 120)</label>
-    <input type="number" name="toefl_score" placeholder="Enter TOEFL Score">
+    <input type="number" name="toefl_score" placeholder="Enter TOEFL Score" max="120">
 
     <label for="rating">University Rating</label>
     <select id="rating" name="rating">
@@ -62,13 +62,13 @@ div {
     </select>
 
     <label>SOP Score (Out of 5)</label>
-    <input type="number" step="0.1" name="sop" placeholder="Enter the SOP Score">
+    <input type="number" step="0.1" name="sop" placeholder="Enter the SOP Score" max="5">
 
     <label >LOR Score (Out of 5)</label>
-    <input type="number" step="0.1" name="lor" placeholder="Enter the LOR Score">
+    <input type="number" step="0.1" name="lor" placeholder="Enter the LOR Score" max="5">
 
     <label>CGPA Percentage (Out of 10)</label>
-    <input type="number" step="0.1" name="cgpa" placeholder="Enter the LOR Score">
+    <input type="number" step="0.1" name="cgpa" placeholder="Enter the LOR Score" max="10">
 
     <label>Has Research been done</label>
     <select name="research">
@@ -83,17 +83,6 @@ div {
   </form>
 
 </div>
-
-
-
-
-<!--<input type="text" name="gre">-->
-<!--<input type="text" name="toefl">-->
-<!--<input type="text" name="rating">-->
-<!--<input type="text" name="sop">-->
-<!--<input type="text" name="lor">-->
-<!--<input type="text" name="CGPA">-->
-<!--<input type="text" name="Research">-->
 
 </body>
 </html>
