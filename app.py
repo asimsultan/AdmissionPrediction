@@ -7,10 +7,10 @@ def hello_world():
    result = ''
    if request.method == 'POST':
       gre = request.form['gre_score']
-      toefl = request.form['rating']
-      rating = request.form['sop']
-      sop = request.form['lor']
-      lor = request.form['cgpa']
+      toefl = request.form['toefl']
+      rating = request.form['rating']
+      sop = request.form['sop']
+      lor = request.form['lor']
       cgpa = request.form['cgpa']
       research = request.form['research']
 
